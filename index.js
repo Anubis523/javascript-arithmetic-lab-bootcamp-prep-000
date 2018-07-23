@@ -23,8 +23,9 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  if (parseInt(n).isNaN)
+  if (parseInt(n).isNaN) {
     return parseInt(n)
+  }
   else {
     return (`${parseInt(n)}` === n)
       ? parseInt(n) 
