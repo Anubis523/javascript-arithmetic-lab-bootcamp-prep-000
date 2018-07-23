@@ -28,11 +28,6 @@ function makeInt(n) {
     : (`${parseInt(n)}` === n)
       ? parseInt(n) 
       : 0
-  if (parseInt(n).isNaN) {
-    return true
-  }
-  else 
-    return (`${parseInt(n)}` === n)? parseInt(n) : 0
 }
 
 function preserveDecimal(n) {
