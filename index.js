@@ -23,7 +23,12 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return (`${parseInt(n)}` === n)? parseInt(n) : 0
+  if (parseInt(n).isNaN) {
+    return NaN
+  }
+  else 
+    return (`${parseInt(n)}` === n)? parseInt(n) : 0
+  // return (`${parseInt(n)}` === n)? parseInt(n) : 0
 }
 
 function preserveDecimal(n) {
