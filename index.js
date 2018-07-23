@@ -23,7 +23,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  if (parseInt(n).isNaN) {
+  if (isNaN(parseInt(n))) {
     return parseInt(n)
   }
   else {
