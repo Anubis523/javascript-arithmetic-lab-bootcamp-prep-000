@@ -28,7 +28,6 @@ function makeInt(n) {
   }
   else 
     return (`${parseInt(n)}` === n)? parseInt(n) : 0
-  // return (`${parseInt(n)}` === n)? parseInt(n) : 0
 }
 
 function preserveDecimal(n) {
